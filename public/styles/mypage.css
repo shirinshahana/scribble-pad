@@ -1,0 +1,207 @@
+html,
+body {
+  background: #F8A434;
+}
+
+.note-entry {
+  max-width: 600px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.note-form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 600px;
+  margin: auto;
+  padding: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.note-form textarea {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 0px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.note-form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 0px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.note-form button {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: 0;
+  background: #FFFFFF;
+  width: 10%;
+  border: 0;
+  padding: 0px;
+  color: #000000;
+  font-size: 12px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.note-form button:hover,
+.note-form button:active,
+.note-form button:focus {
+  background: #ebebe0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 24px 10px;
+  padding: 16px;
+  width: auto;
+  text-align: left;
+  background: #FFFFFF;
+  display: inline-block;
+}
+.card div {
+  background: white;
+  padding: 10px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.breakline {
+  white-space: normal;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.container button {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: 0;
+  background: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+  width: 10%;
+  border: 0;
+  padding: 5px;
+  color: #000000;
+  font-size: 12px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.container button:hover,
+.container button:active,
+.container button:focus {
+  background: #d6d6c2;
+}
+
+body {
+  background: #F8A434;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+pre {
+  border: 0;
+  background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.note-edit {
+  max-width: 600px;
+  padding: 0% 0% 0%;
+  overflow-x: hidden;
+  /*margin: auto;*/
+}
+
+.edit-form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 600px;
+  padding: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.edit-form textarea {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 0px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.edit-form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 0px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.edit-form button {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: 0;
+  background: #FFFFFF;
+  width: 10%;
+  border: 0;
+  padding: 5px;
+  color: #000000;
+  font-size: 12px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.edit-form button:hover,
+.edit-form button:active,
+.edit-form button:focus {
+  background: #f2f2f2;
+}
+
+[ng-drop].drag-enter {
+  border: solid 15px #f2f2f2;
+}
+
+[ng-drag].drag-over {
+  background: white;
+}
+
+.navbar-center {
+  position: absolute;
+  width: 100%;
+  text-align: right;
+  margin: auto;
+  padding-top: 8px;
+}
+
+.input-group-addon:last-child {
+  background-color: rgba(0, 0, 0, 0);
+}

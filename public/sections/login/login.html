@@ -1,0 +1,21 @@
+<div class="login-page">
+  <div class="form">
+    <form class="login-form" name="regform" novalidate>
+      <div style="color : red" ng-show="errors">
+        <ul style="text-align: left">
+          <li ng-repeat="x in errors">
+            {{ x }}
+          </li>
+        </ul>
+      </div>
+      <input type="email" name="email" ng-model="user.email" placeholder="emailid" required/>
+      <span style="color:red" ng-show="regform.email.$dirty && regform.email.$invalid">
+      <span ng-show="regform.email.$error.required">Email is required.</span>
+      <span ng-show="regform.email.$error.email">Invalid email address.</span>
+      </span>
+      <input type="password" name="password" ng-model="user.password" placeholder="password" required/>
+      <button ng-click="passmein()">login</button>
+      <p class="message">Not registered? <a href="#/new">Create an account</a></p>
+    </form>
+  </div>
+</div>

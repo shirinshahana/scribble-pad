@@ -1,0 +1,18 @@
+{
+ "apps": [{
+   "name": "Scribble Pad",
+   "script": "server.js",
+   "cwd": ".",
+   "log_date_format": "YYYY-MM-DD HH:mm Z",
+   "autorestart": true,
+   "max_restarts": 10,
+   "min_uptime": "90s",
+   "exec_mode": "fork",
+   "instances": 1,
+   "watch": false,
+   "env": {
+     "PORT": 3000,
+     "NODE_ENV": "staging",
+   }
+ }]
+}

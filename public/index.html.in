@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="todolist">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <base href="/"> -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+
+  <!-- build:js everything.js -->
+  <!-- bower:js -->
+  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../bower_components/angular-animate/angular-animate.js"></script>
+  <script src="../bower_components/angular-aria/angular-aria.js"></script>
+  <script src="../bower_components/angular-messages/angular-messages.js"></script>
+  <script src="../bower_components/angular-material/angular-material.js"></script>
+  <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../bower_components/ngDraggable/ngDraggable.js"></script>
+  <!-- endbower -->
+
+  <!-- inject:js -->
+  <script src="app.js"></script>
+  <script src="core/index.js"></script>
+  <script src="sections/index.js"></script>
+  <script src="sections/login/index.js"></script>
+  <script src="sections/login/login.controller.js"></script>
+  <script src="sections/login/login.service.js"></script>
+  <script src="core/router/router.service.js"></script>
+  <script src="sections/registration/index.js"></script>
+  <script src="sections/registration/registration.controller.js"></script>
+  <script src="sections/registration/registration.service.js"></script>
+  <script src="sections/tasks/index.js"></script>
+  <script src="sections/tasks/tasks.controller.js"></script>
+  <script src="sections/tasks/tasks.service.js"></script>
+  <!-- endinject -->
+  <!-- endbuild -->
+
+  <!-- build:css css/everything.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css" />
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  
+  <!-- inject:css -->
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/mypage.css">
+  <!-- endinject -->
+  <!-- endbuild -->
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <div class="navbar-brand" href="">To Do List</div>
+      </div>
+  </nav>
+  <!-- Dynamically render templates -->
+  <div ui-view=""></div>
+</body>
+
+</html>

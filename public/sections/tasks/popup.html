@@ -1,0 +1,9 @@
+<div ng-click="show=true" class="note-edit">
+  <div class="edit-form">
+    <form class="note-edit" name="regform" novalidate>
+      <input ng-show="show" type="text" name="todolistTitle" ng-model="user.taskTitle" placeholder="Title" />
+      <textarea type="text" name="todolist" ng-model="user.task" placeholder="Take a Note"></textarea>
+      <button ng-click="todo()">Done</button>
+    </form>
+  </div>
+</div>
